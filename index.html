@@ -6,19 +6,25 @@
     <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="full-body">
-    <div>
-    <input type="text" name="texto-a-encriptar" id="input-texto" placeholder="Escribe aquí...">
-    <p>No se permiten mayusculas ni carácteres espciales</p>
-    <button type="button" id="cifrar">Cifrar</button>
-    <button type="button" id="descifrar">Descifrar</button>
+<body>
+    <img src="img/logo.svg" alt="logo" class="logo">
+    <form id="formulario" class="form">
+    <input class="input-texto" type="text" name="texto-a-encriptar" id="input-texto" placeholder="Escribe aquí...">
+    <p class="gris">No se permiten mayusculas ni carácteres especiales</p>
+    <div class="button-content">
+        <button type="button" id="cifrar">Cifrar</button>
+        <button type="button" id="descifrar">Descifrar</button>
     </div>
-    <section>
-        <p id="text-encriptado">Aquí aparecerá tu texto encriptado...</p>
+    
+    </form>
+    <section class="seccion">
+        <img id="imagen" src="img/imagen.svg" alt="imagen">
+        <p class="negritas" id="notexto">Aún no hay ningún texto</p>
+        <p class="textencriptado" id="text-encriptado">Aquí aparecerá tu texto encriptado...</p>
         <button id="copiar">Copiar</button>
     </section>
     <footer>
-        <p>Alan Rodríguez - 2024</p>
+        <p class="gris">Alan Rodríguez - 2024</p>
     </footer>
 
 
